@@ -56,6 +56,10 @@ a.more {
   box-shadow: none;
   outline: none;
 }
+
+.custom-collapse {
+  visibility: visible !important;
+}
 @media (min-width: 992px) {
   .custom-navbar .custom-navbar-nav li {
     margin-left: 15px;
