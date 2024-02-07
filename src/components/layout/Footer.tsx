@@ -39,7 +39,7 @@ export default function Footer() {
                 </div>
                 <div className="col-auto">
                   <button className="btn btn-primary">
-                    <span className="fa fa-paper-plane"></span>
+                    <span className="fa fa-paper-plane">Send</span>
                   </button>
                 </div>
               </form>
@@ -51,7 +51,7 @@ export default function Footer() {
           <div className="col-lg-4">
             <div className="mb-4 footer-logo-wrap">
               <a href="#" className="footer-logo">
-                Furni<span>.</span>
+                Grace Furniture<span>.</span>
               </a>
             </div>
             <p className="mb-4">
@@ -64,22 +64,23 @@ export default function Footer() {
             <ul className="list-unstyled custom-social">
               <li>
                 <a href="#">
-                  <span className="fa fa-brands fa-facebook-f"></span>
+                  <i className="bi bi-facebook"></i>
+                  {/* <span className="bi bi-facebook"></span> */}
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <span className="fa fa-brands fa-twitter"></span>
+                  <span className="bi bi-brands bi-twitter"></span>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <span className="fa fa-brands fa-instagram"></span>
+                  <span className="bi bi-brands bi-instagram"></span>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <span className="fa fa-brands fa-linkedin"></span>
+                  <span className="bi bi-brands bi-linkedin"></span>
                 </a>
               </li>
             </ul>
@@ -156,11 +157,12 @@ export default function Footer() {
           <div className="row pt-4">
             <div className="col-lg-6">
               <p className="mb-2 text-center text-lg-start">
-                Copyright &copy;
+                Copyright &copy; Grace Furniture
                 <script>document.write(new Date().getFullYear());</script>. All
-                Rights Reserved. &mdash; Designed with love by
-                <a href="https://untree.co">Untree.co</a> Distributed By
-                <a href="https://themewagon.com">ThemeWagon</a>
+                Rights Reserved. &mdash;
+                {/* Designed with love by */}
+                {/* <a href="https://untree.co">Untree.co</a> Distributed By
+                <a href="https://themewagon.com">ThemeWagon</a> */}
                 {/* <!-- License information: https://untree.co/license/ --> */}
               </p>
             </div>
