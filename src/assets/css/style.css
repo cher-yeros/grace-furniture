@@ -4,7 +4,7 @@
 * Author URI: https://untree.co/
 * License: https://creativecommons.org/licenses/by/3.0/
 */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"); */
 body {
   overflow-x: hidden;
   position: relative;
@@ -402,7 +402,7 @@ a.more {
 .we-help-section .imgs-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [27];
+  /* -ms-grid-columns: (1fr) [27]; */
   grid-template-columns: repeat(27, 1fr);
   position: relative;
 }

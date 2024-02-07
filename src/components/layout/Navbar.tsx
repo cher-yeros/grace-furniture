@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Navbar() {
@@ -7,9 +8,9 @@ export default function Navbar() {
       arial-label="Furni navigation bar"
     >
       <div className="container">
-        <a className="navbar-brand" href="index.html">
+        <Link className="navbar-brand" href="/">
           Grace Furniture<span>.</span>
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -25,34 +26,34 @@ export default function Navbar() {
         <div className="navbar-collapse" id="navbarsFurni">
           <ul className="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
             <li className="nav-item active">
-              <a className="nav-link" href="index.html">
+              <Link className="nav-link" href="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="nav-link" href="shop.html">
+              <Link className="nav-link" href="/shop">
                 Shop
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="nav-link" href="about.html">
+              <Link className="nav-link" href="/about">
                 About us
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="nav-link" href="services.html">
+              <Link className="nav-link" href="/services">
                 Services
-              </a>
+              </Link>
             </li>
-            <li>
+            {/* <li>
               <a className="nav-link" href="blog.html">
                 Blog
               </a>
-            </li>
+            </li> */}
             <li>
-              <a className="nav-link" href="contact.html">
+              <Link className="nav-link" href="/contact">
                 Contact us
-              </a>
+              </Link>
             </li>
           </ul>
           <ul className="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
@@ -62,9 +63,9 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a className="nav-link" href="cart.html">
+              <Link className="nav-link" href="/cart">
                 <img src="images/cart.svg" />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

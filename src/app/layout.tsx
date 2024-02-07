@@ -11,7 +11,9 @@ config.autoAddCss = false;
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/style.css";
 import "../assets/css/tiny-slider.css";
+
 import Script from "next/script";
+import Navbar from "@/components/layout/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +21,8 @@ export const metadata: Metadata = {
   title: "Grace Furniture",
   description: "Grace Furniture",
 };
+
+console.log(inter);
 
 export default function RootLayout({
   children,
@@ -28,6 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Navbar />
         {children}
         {/* <JsWrapper /> */}
         <Script src="/assets/js/bootstrap.bundle.min.js" />
